@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        // Enabling multidex support.
+        multiDexEnabled true
+        applicationId "com.myexercuse.myexercise"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:cardview-v7:24.0.0'
+//    compile 'com.android.support:appcompat-v7:23.1.1'
+//    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'io.reactivex:rxandroid:1.0.0'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.0.0'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta1'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.gxz.pagerslidingtabstrip:library:1.3'
+    compile 'com.daimajia.numberprogressbar:library:1.2@aar'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile project(':xrecyclerview')
+    compile 'org.sufficientlysecure:html-textview:1.3'
+    compile project(':social_sdk_library_project')
+}

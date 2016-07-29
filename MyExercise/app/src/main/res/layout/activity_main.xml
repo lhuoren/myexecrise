@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/id_drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--Toolbar-->
+            <include layout="@layout/toolbar"/>
+
+            <!-- 内容部分， fragment切换 -->
+            <LinearLayout
+                android:id="@+id/content_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/line"
+                android:layout_below="@+id/id_toolbar"
+                android:orientation="vertical"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            </LinearLayout>
+        </android.support.design.widget.CoordinatorLayout>
+
+        <!-- 底部tab -->
+        <LinearLayout
+            android:id="@+id/ll_bottom_tab"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:background="@color/background_white"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <RelativeLayout
+                android:id="@+id/rl_gank"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" >
+
+                <ImageView
+                    android:id="@+id/iv_gank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/btn_know_nor"
+                    android:contentDescription="@null"/>
+
+                <TextView
+                    android:id="@+id/tv_gank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_gank"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/bottom_tab_gank"
+                    android:textColor="@color/bottomtab_normal"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_meizhi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" >
+
+                <ImageView
+                    android:id="@+id/iv_meizhi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/btn_wantknow_nor"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:id="@+id/tv_meizhi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_meizhi"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/bottom_tab_meizhi"
+                    android:textColor="@color/bottomtab_normal"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_me"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" >
+
+                <ImageView
+                    android:id="@+id/iv_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/btn_my_nor"
+                    android:contentDescription="@null" />
+
+
+                <TextView
+                    android:id="@+id/tv_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_me"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/bottom_tab_news"
+                    android:textColor="@color/bottomtab_normal"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@id/ll_bottom_tab"
+            android:background="@color/line"  />
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/id_lv_left_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:paddingTop="0dp"
+        android:background="#ffffffff"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:listSelector="?attr/selectableItemBackground"
+        />
+
+<!--</FrameLayout>-->
+</android.support.v4.widget.DrawerLayout>

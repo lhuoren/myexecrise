@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MyExercise</string>
+    <string name="bottom_tab_gank">干货</string>
+    <string name="bottom_tab_meizhi">妹纸</string>
+    <string name="bottom_tab_news">新闻</string>
+
+    <string name="action_settings">设置</string>
+    <string name="loading_failed">数据加载失败,请检查下网络~</string>
+    <string name="loading_notdata">服务器忙,没办法提供妹纸了,请重试~</string>
+
+    <string name="rv_header_hint_normal">下拉刷新</string>
+    <string name="rv_header_hint_ready">松开刷新数据</string>
+    <string name="rv_header_hint_loading">正在加载...</string>
+    <string name="rv_header_last_time">上次更新时间：</string>
+    <string name="rv_footer_hint_normal">上拉查看更多</string>
+    <string name="rv_footer_hint_ready">松开载入更多</string>
+
+    <string name="listview_header_hint_normal">pull to refresh</string>
+    <string name="listview_header_hint_release">release to start refresh</string>
+    <string name="listview_loading">loading...</string>
+    <string name="nomore_loading">no more to be loaded</string>
+    <string name="refreshing">refreshing...</string>
+    <string name="refresh_done">refresh done</string>
+    <string name="listview_header_last_time">last update：</string>
+
+    <string name="top">头条</string>
+    <string name="nba">NBA</string>
+    <string name="cars">汽车</string>
+    <string name="jokes">笑话</string>
+</resources>
