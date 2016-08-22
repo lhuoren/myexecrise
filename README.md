@@ -12,17 +12,17 @@
 ---------------------------------
 6.一些页面贴图：<br> 
 ----------------
-![](https://github.com/lhuoren/myexecrise/blob/master/meizhi.png)  <br> 
+![](https://github.com/lhuoren/myexecrise/blob/master/demojietu/meizhi.png)  <br> 
 妹纸页<br>
-![](https://github.com/lhuoren/myexecrise/blob/master/meizhidesc.png)  <br> 
+![](https://github.com/lhuoren/myexecrise/blob/master/demojietu/meizhidesc.png)  <br> 
 妹纸详细页<br>
-![](https://github.com/lhuoren/myexecrise/blob/master/gank.png)  <br> 
+![](https://github.com/lhuoren/myexecrise/blob/master/demojietu/gank.png)  <br> 
 干货页<br>
-![](https://github.com/lhuoren/myexecrise/blob/master/gankdesc.png)  <br> 
+![](https://github.com/lhuoren/myexecrise/blob/master/demojietu/gankdesc.png)  <br> 
 干货详情页<br>
-![](https://github.com/lhuoren/myexecrise/blob/master/gankshare.png)  <br> 
+![](https://github.com/lhuoren/myexecrise/blob/master/demojietu/gankshare.png)  <br> 
 干货分享页<br>
-![](https://github.com/lhuoren/myexecrise/blob/master/news.png)  <br> 
+![](https://github.com/lhuoren/myexecrise/blob/master/demojietu/news.png)  <br> 
 新闻页<br>
-![](https://github.com/lhuoren/myexecrise/blob/master/newsdesc.png)  <br> 
+![](https://github.com/lhuoren/myexecrise/blob/master/demojietu/newsdesc.png)  <br> 
 新闻详情页<br>
