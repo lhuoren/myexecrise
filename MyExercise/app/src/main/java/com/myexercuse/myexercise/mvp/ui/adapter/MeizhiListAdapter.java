@@ -38,7 +38,9 @@ public class MeizhiListAdapter extends CommonAdapter<MeizhiData.ResultsBean>{
 
 
         Log.i("resultsBean.getUrl()",resultsBean.getUrl());
-        Glide.with(mContext).load(resultsBean.getUrl()).into(iv_Item_Meizhi);
+        Glide.with(mContext).load(resultsBean.getUrl())
+                .error(R.mipmap.ic_launcher)
+                .into(iv_Item_Meizhi);
 
         //监听事件
 

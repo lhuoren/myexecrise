@@ -39,6 +39,7 @@ public class NewsFragmentContent extends LazyFragment implements FNContentView{
     private int mType;
     private int mSize = 10;
     private int mPage = 0;
+    private LinearLayoutManager layoutManager = null;
 
     public static Fragment newInstance(int type) {
         Bundle args = new Bundle();
@@ -144,7 +145,9 @@ public class NewsFragmentContent extends LazyFragment implements FNContentView{
 
 //        newsRecyclerView = (XRecyclerView)view.findViewById(R.id.rlv_news);
         newsRecyclerView = findView(R.id.rlv_news);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
+        if(layoutManager == null){
+            layoutManager = new LinearLayoutManager(getActivity());
+        }
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         newsRecyclerView.setLayoutManager(layoutManager);
 

@@ -37,6 +37,7 @@
         <activity android:name=".mvp.ui.activity.PictureActivity"/>
         <activity android:name=".mvp.ui.activity.WebActivity"/>
         <activity android:name=".mvp.ui.activity.NewsDetailActivity"/>
+        <activity android:name=".mvp.ui.activity.AboutActivity"/>
 
         /**友盟*/
         <activity
@@ -104,7 +105,10 @@
         <!--android:name="UMENG_APPKEY"-->
         <!--android:value="561cae6ae0f55abd990035bf" >-->
         <!--</meta-data>-->
-
+        /**Glide*/
+        <meta-data
+            android:name="com.myexercuse.myexercise.util.GlideModuleConfig"
+            android:value="GlideModule" />
     </application>
 
 </manifest>

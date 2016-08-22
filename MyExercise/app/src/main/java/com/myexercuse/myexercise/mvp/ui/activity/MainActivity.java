@@ -1,11 +1,13 @@
 package com.myexercuse.myexercise.mvp.ui.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -13,6 +15,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -24,6 +27,7 @@ import com.myexercuse.myexercise.mvp.ui.Fragment.GankFragment;
 import com.myexercuse.myexercise.mvp.ui.Fragment.MeizhiFragment;
 import com.myexercuse.myexercise.mvp.ui.Fragment.NewsFragment;
 import com.myexercuse.myexercise.mvp.ui.adapter.MenuItemAdapter;
+import com.myexercuse.myexercise.util.LogUtils;
 
 public class MainActivity extends ToolbarActivity implements MeizhiFragment.hideWidget, View.OnClickListener {
 
@@ -45,6 +49,8 @@ public class MainActivity extends ToolbarActivity implements MeizhiFragment.hide
     private DrawerLayout mDrawerLayout;
 
     private Animation animation;
+    public static int width;
+    public static int height;
 
     @Override
     protected int provideContentViewId() {
@@ -56,10 +62,25 @@ public class MainActivity extends ToolbarActivity implements MeizhiFragment.hide
         // 设置无标题
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
-
+        getPhonePix();
         initUI();
         initTab();
         setUpDrawer();
+        setLisetener();
+    }
+
+    private void setLisetener() {
+        mLvLeftMenu.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                LogUtils.i("mLvLeftMenu","mLvLeftMenu");
+                Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
     }
 
     private void setUpDrawer() {
@@ -264,6 +285,13 @@ public class MainActivity extends ToolbarActivity implements MeizhiFragment.hide
     public void hideBottomTab() {
         ll_bottom_tab.setAnimation(animation);
         ll_bottom_tab.setVisibility(View.GONE);
+    }
+
+    public void getPhonePix() {
+        DisplayMetrics metric = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(metric);
+        width = metric.widthPixels;
+        height = metric.heightPixels * 1 / 13;
     }
 
 }

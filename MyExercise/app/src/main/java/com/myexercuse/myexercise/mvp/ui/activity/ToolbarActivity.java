@@ -26,10 +26,10 @@ public abstract class ToolbarActivity extends BaseActivity {
     }
 
     private void initView() {
+
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("MyExercise");
         setSupportActionBar(toolbar);
     }
-
 
 }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"/>
+
+    <ImageView
+        android:id="@+id/iv_about"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="40%"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/app_bar_layout"
+        android:src="@drawable/lanhuac2"/>
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_about"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:text="内容大多来自gank.io，感谢@damajia/@drakket"/>
+    <TextView
+        android:id="@+id/text_gankurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_name"
+        android:autoLink="web"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:text="gank地址:http://gank.io"/>
+    <TextView
+        android:id="@+id/text_myurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_gankurl"
+        android:autoLink="web"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:text="项目地址:https://github.com/lhuoren/myexecrise"/>
+
+    <TextView
+        android:id="@+id/text_myemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_myurl"
+        android:autoLink="email"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:text="我的email:lhuoren@sina.com"/>
+</android.support.percent.PercentRelativeLayout>

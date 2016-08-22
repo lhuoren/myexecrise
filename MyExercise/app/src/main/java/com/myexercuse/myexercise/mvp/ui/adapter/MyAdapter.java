@@ -4,10 +4,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.myexercuse.myexercise.R;
 import com.myexercuse.myexercise.data.entity.GankEntity;
+import com.myexercuse.myexercise.mvp.ui.activity.MainActivity;
 
 import java.util.List;
 
@@ -36,11 +38,16 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> implem
     public void onBindViewHolder(ViewHolder viewHolder, int position) {
 //        viewHolder.mTextView.setText(datas.get(position));
         //设置值
+
         if(datas.get(position).desc != null){
+            String newstring = datas.get(position).desc;
+            if (datas.get(position).desc.length() > 30) {
+                newstring = datas.get(position).desc.substring(0, 30) + "···";
+            }
             if(datas.get(position).who!=null){
-                viewHolder.tv_gank_title.setText(datas.get(position).desc + "作者：" + datas.get(position).who);
+                viewHolder.tv_gank_title.setText(newstring + "作者：" + datas.get(position).who);
             }else {
-                viewHolder.tv_gank_title.setText(datas.get(position).desc + "作者：");
+                viewHolder.tv_gank_title.setText(newstring + "作者：");
             }
         }
 
@@ -56,9 +63,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> implem
     //自定义的ViewHolder，持有每个Item的的所有界面元素
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public TextView tv_gank_title;
+
         public ViewHolder(View view){
             super(view);
             tv_gank_title = (TextView) view.findViewById(R.id.tv_gank_title);
+            RelativeLayout.LayoutParams Params = new RelativeLayout.LayoutParams(
+                    MainActivity.width, MainActivity.height);
+            tv_gank_title.setLayoutParams(Params);
         }
     }
 
@@ -79,4 +90,5 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> implem
     public interface OnRecyclerViewItemClickListener {
         void onItemClick(View view , GankEntity gankEntity);
     }
+
 }

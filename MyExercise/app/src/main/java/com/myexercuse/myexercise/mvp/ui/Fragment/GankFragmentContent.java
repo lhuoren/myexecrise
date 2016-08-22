@@ -47,6 +47,7 @@ public class GankFragmentContent extends LazyFragment implements FGContentView {
     private MyAdapter mAdapter;
     private int refreshTime = 0;
     private int times = 0;
+    private LinearLayoutManager layoutManager = null;
 
     public static Fragment newInstance(int type) {
         Bundle args = new Bundle();
@@ -158,7 +159,10 @@ public class GankFragmentContent extends LazyFragment implements FGContentView {
 
 //        mRecyclerView = (XRecyclerView)view.findViewById(R.id.rlv_gank);
         mRecyclerView = findView(R.id.rlv_gank);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
+        if (layoutManager == null) {
+            layoutManager = new LinearLayoutManager(this.getActivity());
+        }
+//        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(layoutManager);
 
@@ -211,6 +215,7 @@ public class GankFragmentContent extends LazyFragment implements FGContentView {
         if(ganklist != null){
             ganklist.clear();
         }
+//        mRecyclerView.
     }
 
 
@@ -229,7 +234,10 @@ public class GankFragmentContent extends LazyFragment implements FGContentView {
 
     @Override
     protected void initData() {
-        initView();
+        if(mRecyclerView == null){
+            initView();
+        }
+
         ganklist = new ArrayList<>();
         fgContentPresenter = new FGContentPresenterImpl(GankFragmentContent.this);
         mAdapter = new MyAdapter(ganklist);

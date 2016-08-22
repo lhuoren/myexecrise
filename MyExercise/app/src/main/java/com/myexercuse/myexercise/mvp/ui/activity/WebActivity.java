@@ -186,11 +186,11 @@ public class WebActivity extends AppCompatActivity {
 
     private void setView() {
         if(mTextView!=null){
-            if (gankEntity.desc.length() > 30) {
-                String newstring = gankEntity.desc.substring(0, 30) + "···";
-                mTextView.setText(newstring);
+            String newstring = gankEntity.desc;
+            if (gankEntity.desc.length() > 20) {
+                newstring = gankEntity.desc.substring(0, 20) + "···";
             }
-
+            mTextView.setText(newstring);
         }
 
 //        Log.i("gankEntity.url", gankEntity.url);
