@@ -3,6 +3,7 @@ package com.myexercuse.myexercise.mvp.presenter;
 import com.myexercuse.myexercise.data.MeizhiData;
 import com.myexercuse.myexercise.mvp.model.MyExerciseFactory;
 import com.myexercuse.myexercise.mvp.view.MeizhiView;
+import com.sina.weibo.sdk.utils.LogUtil;
 
 import rx.Observer;
 import rx.Subscription;
@@ -40,6 +41,7 @@ public class MeizhiPreserterImpl extends BasePresenterImpl implements MeizhiPres
 
                     @Override
                     public void onNext(MeizhiData meizhiDatas) {
+                        LogUtil.i("meizhiDatas",meizhiDatas.toString());
                         meizhiView.GetMeizhiSuccess(meizhiDatas);
                     }
 

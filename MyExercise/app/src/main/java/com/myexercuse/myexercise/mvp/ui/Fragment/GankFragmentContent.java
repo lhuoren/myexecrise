@@ -240,7 +240,7 @@ public class GankFragmentContent extends LazyFragment implements FGContentView {
 
         ganklist = new ArrayList<>();
         fgContentPresenter = new FGContentPresenterImpl(GankFragmentContent.this);
-        mAdapter = new MyAdapter(ganklist);
+        mAdapter = new MyAdapter(ganklist,getActivity());
         mRecyclerView.setAdapter(mAdapter);
         getGanks();
         setListener();

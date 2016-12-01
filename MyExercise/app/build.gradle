@@ -44,5 +44,9 @@ dependencies {
     compile project(':xrecyclerview')
     compile project(':social_sdk_library_project')
     compile 'org.sufficientlysecure:html-textview:1.3'
+    /**图片放大缩小查看器*/
+    compile 'com.bm.photoview:library:1.4.0'
+    /**引入图片加载之picasso*/
+    compile 'com.squareup.picasso:picasso:2.5.2'
 
 }

@@ -18,9 +18,17 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:background="@drawable/initview"
         />
 
+    <TextView
+        android:id="@+id/tv_item_meizhi_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016-11-30"
+        android:textColor="@color/blacktext"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:layout_alignParentBottom="true"/>
     <!--<LinearLayout-->
         <!--android:layout_width="wrap_content"-->
         <!--android:layout_height="wrap_content"-->

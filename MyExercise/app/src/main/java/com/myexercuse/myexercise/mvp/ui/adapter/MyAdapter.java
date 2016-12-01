@@ -1,9 +1,12 @@
 package com.myexercuse.myexercise.mvp.ui.adapter;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -20,9 +23,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> implem
     public List<GankEntity> datas = null;
     private GankEntity gankdata;
     private OnRecyclerViewItemClickListener mOnItemClickListener = null;
+    private Context mContext;
 
-    public MyAdapter(List<GankEntity> datas) {
+    public MyAdapter(List<GankEntity> datas,Context context) {
         this.datas = datas;
+        this.mContext = context;
     }
     //创建新View，被LayoutManager所调用
     @Override
@@ -38,16 +43,18 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> implem
     public void onBindViewHolder(ViewHolder viewHolder, int position) {
 //        viewHolder.mTextView.setText(datas.get(position));
         //设置值
-
+        Log.i("datas.get(position).url",datas.get(position).url);
+//        Glide.with(mContext).load(datas.get(position).url).into(viewHolder.ivGankImg);
         if(datas.get(position).desc != null){
+            Log.i("datas.get(position).desc",datas.get(position).desc);
             String newstring = datas.get(position).desc;
             if (datas.get(position).desc.length() > 30) {
                 newstring = datas.get(position).desc.substring(0, 30) + "···";
             }
             if(datas.get(position).who!=null){
-                viewHolder.tv_gank_title.setText(newstring + "作者：" + datas.get(position).who);
+                viewHolder.tvGankTitle.setText(newstring + "作者：" + datas.get(position).who);
             }else {
-                viewHolder.tv_gank_title.setText(newstring + "作者：");
+                viewHolder.tvGankTitle.setText(newstring + "作者：");
             }
         }
 
@@ -62,14 +69,16 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> implem
     }
     //自定义的ViewHolder，持有每个Item的的所有界面元素
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public TextView tv_gank_title;
-
+        public TextView tvGankTitle;
+        public ImageView ivGankImg;
         public ViewHolder(View view){
             super(view);
-            tv_gank_title = (TextView) view.findViewById(R.id.tv_gank_title);
+            tvGankTitle = (TextView) view.findViewById(R.id.tv_gank_title);
             RelativeLayout.LayoutParams Params = new RelativeLayout.LayoutParams(
                     MainActivity.width, MainActivity.height);
-            tv_gank_title.setLayoutParams(Params);
+//            tvGankTitle.setLayoutParams(Params);
+            ivGankImg = (ImageView) view.findViewById(R.id.iv_gank_img);
+//            ivGankImg.setLayoutParams(Params);
         }
     }
 
