@@ -1,6 +1,5 @@
 package com.myexercuse.myexercise.mvp.ui.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -15,21 +14,34 @@ import android.view.View;
 import android.view.Window;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
-import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.amap.api.location.AMapLocation;
+import com.amap.api.location.AMapLocationClient;
+import com.amap.api.location.AMapLocationClientOption;
+import com.amap.api.location.AMapLocationListener;
+import com.bumptech.glide.Glide;
 import com.myexercuse.myexercise.R;
+import com.myexercuse.myexercise.data.WeatherData;
+import com.myexercuse.myexercise.mvp.presenter.WeatherPresenterImpl;
 import com.myexercuse.myexercise.mvp.ui.Fragment.GankFragment;
 import com.myexercuse.myexercise.mvp.ui.Fragment.MeizhiFragment;
 import com.myexercuse.myexercise.mvp.ui.Fragment.NewsFragment;
 import com.myexercuse.myexercise.mvp.ui.adapter.MenuItemAdapter;
-import com.myexercuse.myexercise.util.LogUtils;
+import com.myexercuse.myexercise.mvp.view.WeatherView;
+import com.myexercuse.myexercise.util.Commons;
+import com.myexercuse.myexercise.util.LogUtil;
+import com.myexercuse.myexercise.util.StringDealUtil;
 
-public class MainActivity extends ToolbarActivity implements MeizhiFragment.hideWidget, View.OnClickListener {
+public class MainActivity extends ToolbarActivity implements
+        MeizhiFragment.hideWidget,
+        View.OnClickListener,
+        WeatherView {
 
     //底部导航条
     private static LinearLayout ll_bottom_tab;
@@ -52,6 +64,19 @@ public class MainActivity extends ToolbarActivity implements MeizhiFragment.hide
     public static int width;
     public static int height;
 
+    private WeatherPresenterImpl mWeatherPresenter;
+    private TextView tvWeatherText;
+    private TextView tvDateText;
+    private TextView tvTemperatureText;
+    private TextView tvWindText;
+    private ImageView ivWeatherImg;
+    private TextView tvAddressText;
+
+    /**高德地图定位*/
+    private AMapLocationClient locationClient = null;
+    private AMapLocationClientOption locationOption = new AMapLocationClientOption();
+    private String locationCity;
+
     @Override
     protected int provideContentViewId() {
         return R.layout.activity_main;
@@ -62,32 +87,57 @@ public class MainActivity extends ToolbarActivity implements MeizhiFragment.hide
         // 设置无标题
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
+        mWeatherPresenter = new WeatherPresenterImpl(MainActivity.this);
         getPhonePix();
         initUI();
         initTab();
+        initLocation();
+        startLocation();
         setUpDrawer();
+        getWeather();
         setLisetener();
+        //初始化定位
+
     }
 
     private void setLisetener() {
-        mLvLeftMenu.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                LogUtils.i("mLvLeftMenu","mLvLeftMenu");
-                Intent intent = new Intent(MainActivity.this, AboutActivity.class);
-                startActivity(intent);
-
-            }
-        });
+//        mLvLeftMenu.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                LogUtils.i("mLvLeftMenu","mLvLeftMenu");
+//                Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+//                startActivity(intent);
+//
+//            }
+//        });
 
 
     }
 
     private void setUpDrawer() {
         LayoutInflater inflater = LayoutInflater.from(this);
-        mLvLeftMenu.addHeaderView(inflater.inflate(R.layout.header_just_username, mLvLeftMenu, false));
-        mLvLeftMenu.setAdapter(new MenuItemAdapter(this));
+        View mView = inflater.inflate(R.layout.header_just_username, mLvLeftMenu, false);
+        mLvLeftMenu.addHeaderView(mView);
+        MenuItemAdapter menuItemAdapter = new MenuItemAdapter(this);
+        mLvLeftMenu.setAdapter(menuItemAdapter);
+//        menuItemAdapter.setOnItemClickListener(mOnItemClickListener);
+        tvWeatherText = (TextView) mView.findViewById(R.id.tv_weather_text);
+        tvDateText = (TextView) mView.findViewById(R.id.tv_date_text);
+        tvTemperatureText = (TextView) mView.findViewById(R.id.tv_temperature_text);
+        tvWindText = (TextView) mView.findViewById(R.id.tv_wind_text);
+        ivWeatherImg = (ImageView) mView.findViewById(R.id.iv_weather_img);
+        tvAddressText = (TextView) mView.findViewById(R.id.tv_address_text);
+
     }
+
+//    MenuItemAdapter.OnItemClickListener mOnItemClickListener = new MenuItemAdapter
+//            .OnItemClickListener() {
+//        @Override
+//        public void onItemClick(View view) {
+//            Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+//            startActivity(intent);
+//        }
+//    };
 
     /**
      * 初始化UI
@@ -138,14 +188,14 @@ public class MainActivity extends ToolbarActivity implements MeizhiFragment.hide
             // 记录当前Fragment
             currentFragment = meizhiFragment;
             // 设置图片文本的变化
-            gankImg.setImageResource(R.drawable.btn_know_nor);
+            gankImg.setImageResource(R.drawable.tab_center_gray);
             gankTv.setTextColor(getResources()
-                    .getColor(R.color.bottomtab_normal));
-            meizhiImg.setImageResource(R.drawable.btn_wantknow_pre);
+                    .getColor(R.color.titleColor));
+            meizhiImg.setImageResource(R.drawable.tab_counter_light);
             meizhiTv.setTextColor(getResources().getColor(
-                    R.color.bottomtab_press));
-            meImg.setImageResource(R.drawable.btn_my_nor);
-            meTv.setTextColor(getResources().getColor(R.color.bottomtab_normal));
+                    R.color.titleColorSelected));
+            meImg.setImageResource(R.drawable.tab_assistant_gray);
+            meTv.setTextColor(getResources().getColor(R.color.titleColor));
 
         }
 
@@ -178,13 +228,13 @@ public class MainActivity extends ToolbarActivity implements MeizhiFragment.hide
         addOrShowFragment(getSupportFragmentManager().beginTransaction(), gankFragment);
 
         // 设置底部tab变化
-        gankImg.setImageResource(R.drawable.btn_know_pre);
-        gankTv.setTextColor(getResources().getColor(R.color.bottomtab_press));
-        meizhiImg.setImageResource(R.drawable.btn_wantknow_nor);
+        gankImg.setImageResource(R.drawable.tab_center_light);
+        gankTv.setTextColor(getResources().getColor(R.color.titleColorSelected));
+        meizhiImg.setImageResource(R.drawable.tab_counter_gray);
         meizhiTv.setTextColor(getResources().getColor(
-                R.color.bottomtab_normal));
-        meImg.setImageResource(R.drawable.btn_my_nor);
-        meTv.setTextColor(getResources().getColor(R.color.bottomtab_normal));
+                R.color.titleColor));
+        meImg.setImageResource(R.drawable.tab_assistant_gray);
+        meTv.setTextColor(getResources().getColor(R.color.titleColor));
     }
 
     /**
@@ -196,13 +246,13 @@ public class MainActivity extends ToolbarActivity implements MeizhiFragment.hide
         }
         addOrShowFragment(getSupportFragmentManager().beginTransaction(), meizhiFragment);
 
-        gankImg.setImageResource(R.drawable.btn_know_nor);
-        gankTv.setTextColor(getResources().getColor(R.color.bottomtab_normal));
-        meizhiImg.setImageResource(R.drawable.btn_wantknow_pre);
+        gankImg.setImageResource(R.drawable.tab_center_gray);
+        gankTv.setTextColor(getResources().getColor(R.color.titleColor));
+        meizhiImg.setImageResource(R.drawable.tab_counter_light);
         meizhiTv.setTextColor(getResources().getColor(
-                R.color.bottomtab_press));
-        meImg.setImageResource(R.drawable.btn_my_nor);
-        meTv.setTextColor(getResources().getColor(R.color.bottomtab_normal));
+                R.color.titleColorSelected));
+        meImg.setImageResource(R.drawable.tab_assistant_gray);
+        meTv.setTextColor(getResources().getColor(R.color.titleColor));
 
     }
 
@@ -215,13 +265,13 @@ public class MainActivity extends ToolbarActivity implements MeizhiFragment.hide
         }
         addOrShowFragment(getSupportFragmentManager().beginTransaction(), newsFragment);
 
-        gankImg.setImageResource(R.drawable.btn_know_nor);
-        gankTv.setTextColor(getResources().getColor(R.color.bottomtab_normal));
-        meizhiImg.setImageResource(R.drawable.btn_wantknow_nor);
+        gankImg.setImageResource(R.drawable.tab_center_gray);
+        gankTv.setTextColor(getResources().getColor(R.color.titleColor));
+        meizhiImg.setImageResource(R.drawable.tab_counter_gray);
         meizhiTv.setTextColor(getResources().getColor(
-                R.color.bottomtab_normal));
-        meImg.setImageResource(R.drawable.btn_my_pre);
-        meTv.setTextColor(getResources().getColor(R.color.bottomtab_press));
+                R.color.titleColor));
+        meImg.setImageResource(R.drawable.tab_assistant_light);
+        meTv.setTextColor(getResources().getColor(R.color.titleColorSelected));
 
     }
 
@@ -292,6 +342,152 @@ public class MainActivity extends ToolbarActivity implements MeizhiFragment.hide
         getWindowManager().getDefaultDisplay().getMetrics(metric);
         width = metric.widthPixels;
         height = metric.heightPixels * 1 / 13;
+    }
+
+    @Override
+    public void getWeather() {
+        LogUtil.i("getWeather","getWeather");
+//        LogUtil.i("locationCity",locationCity);
+        if(null==locationCity){
+            locationCity = "深圳";
+        }
+        mWeatherPresenter.getWeather(locationCity, Commons.HEWEATHERKEY);
+    }
+
+    @Override
+    public void getWeatherSuccess(WeatherData weatherData) {
+        LogUtil.i("getWeatherSuccess","getWeatherSuccess");
+
+        for(WeatherData.HeWeather5Bean heWeather5Bean:weatherData.HeWeather5){
+            tvWeatherText.setText(heWeather5Bean.now.cond.txt);
+            tvDateText.setText(StringDealUtil.cutTenString(heWeather5Bean.basic.update.utc));
+            tvTemperatureText.setText(heWeather5Bean.now.tmp+"℃");
+            tvWindText.setText(heWeather5Bean.now.wind.dir);
+            tvAddressText.setText(heWeather5Bean.basic.city);
+            Glide.with(MainActivity.this).load("http://files.heweather.com/cond_icon/"+heWeather5Bean.now.cond.code+".png").into(ivWeatherImg);
+        }
+
+    }
+
+    @Override
+    public void getWeatherFailure() {
+        Toast.makeText(MainActivity.this,"获取天气失败",Toast.LENGTH_LONG).show();
+    }
+
+    /*************************高德定位相关***************************/
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+    /**
+     * 初始化定位
+     *
+     * @since 2.8.0
+     * @author hongming.wang
+     *
+     */
+    private void initLocation(){
+        //初始化client
+        locationClient = new AMapLocationClient(this.getApplicationContext());
+        //设置定位参数
+        locationClient.setLocationOption(getDefaultOption());
+        // 设置定位监听
+        locationClient.setLocationListener(locationListener);
+    }
+
+    /**
+     * 默认的定位参数
+     * @since 2.8.0
+     * @author hongming.wang
+     *
+     */
+    private AMapLocationClientOption getDefaultOption(){
+        AMapLocationClientOption mOption = new AMapLocationClientOption();
+        mOption.setLocationMode(AMapLocationClientOption.AMapLocationMode.Hight_Accuracy);//可选，设置定位模式，可选的模式有高精度、仅设备、仅网络。默认为高精度模式
+//        mOption.setGpsFirst(false);//可选，设置是否gps优先，只在高精度模式下有效。默认关闭
+        mOption.setHttpTimeOut(30000);//可选，设置网络请求超时时间。默认为30秒。在仅设备模式下无效
+        mOption.setInterval(60000);//可选，设置定位间隔。默认为2秒
+//        mOption.setNeedAddress(true);//可选，设置是否返回逆地理地址信息。默认是true
+//        mOption.setOnceLocation(false);//可选，设置是否单次定位。默认是false
+//        mOption.setOnceLocationLatest(false);//可选，设置是否等待wifi刷新，默认为false.如果设置为true,会自动变为单次定位，持续定位时不要使用
+//        AMapLocationClientOption.setLocationProtocol(AMapLocationProtocol.HTTP);//可选， 设置网络请求的协议。可选HTTP或者HTTPS。默认为HTTP
+        mOption.setSensorEnable(false);//可选，设置是否使用传感器。默认是false
+        return mOption;
+    }
+
+    /**
+     * 定位监听
+     */
+    AMapLocationListener locationListener = new AMapLocationListener() {
+        @Override
+        public void onLocationChanged(AMapLocation loc) {
+            if (null != loc) {
+                //解析定位结果
+//                String result = GaoDeMapUtils.getLocationStr(loc);
+                if(loc.getErrorCode()==0){
+                    locationCity = loc.getCity();
+                    LogUtil.i("locationCity",locationCity);
+                }
+                stopLocation();
+//                tvResult.setText(result);
+            } else {
+//                tvResult.setText("定位失败，loc is null");
+                Toast.makeText(MainActivity.this,"定位失败",Toast.LENGTH_SHORT);
+                stopLocation();
+            }
+        }
+    };
+
+    /**
+     * 开始定位
+     *
+     * @since 2.8.0
+     * @author hongming.wang
+     *
+     */
+    private void startLocation(){
+        // 设置定位参数
+        locationClient.setLocationOption(locationOption);
+        // 启动定位
+        locationClient.startLocation();
+    }
+
+    /**
+     * 停止定位
+     *
+     * @since 2.8.0
+     * @author hongming.wang
+     *
+     */
+    private void stopLocation(){
+        // 停止定位
+        locationClient.stopLocation();
+    }
+
+    /**
+     * 销毁定位
+     *
+     * @since 2.8.0
+     * @author hongming.wang
+     *
+     */
+    private void destroyLocation(){
+        if (null != locationClient) {
+            /**
+             * 如果AMapLocationClient是在当前Activity实例化的，
+             * 在Activity的onDestroy中一定要执行AMapLocationClient的onDestroy
+             */
+            locationClient.onDestroy();
+            locationClient = null;
+            locationOption = null;
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        stopLocation();
+        destroyLocation();
     }
 
 }

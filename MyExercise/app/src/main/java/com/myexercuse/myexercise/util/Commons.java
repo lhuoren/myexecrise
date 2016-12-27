@@ -24,5 +24,7 @@ public class Commons {
     public static final String CAR_NID = "T1348654060988";
     /**笑话*/
     public static final String JOKE_NID = "T1350383429665";
+    /**和风天气key*/
+    public static final String HEWEATHERKEY = "cb2faa4b1011491a8bd3b953907588ed";
 
 }

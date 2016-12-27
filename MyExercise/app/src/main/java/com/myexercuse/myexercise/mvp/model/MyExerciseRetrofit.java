@@ -1,11 +1,15 @@
 package com.myexercuse.myexercise.mvp.model;
 
+import android.util.Log;
+
 import com.myexercuse.myexercise.mvp.model.api.GankApi;
 import com.myexercuse.myexercise.mvp.model.api.NewsApi;
+import com.myexercuse.myexercise.mvp.model.api.WeatherApi;
 import com.myexercuse.myexercise.mvp.model.api.ZhuangbiApi;
 import com.myexercuse.myexercise.util.retrofit2.converter.scalars.ScalarsConverterFactory;
 
 import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.CallAdapter;
 import retrofit2.Converter;
 import retrofit2.Retrofit;
@@ -13,6 +17,10 @@ import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MyExerciseRetrofit {
+
+//    Retrofit retrofit = new Retrofit.Builder().client(new OkHttpClient.Builder()
+//            .addNetworkInterceptor(
+//                    new HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.HEADERS)).build());
 
     private static OkHttpClient okHttpClient = new OkHttpClient();
     private static Converter.Factory gsonConverterFactory = GsonConverterFactory.create();
@@ -22,8 +30,20 @@ public class MyExerciseRetrofit {
     final GankApi gankService;
     final ZhuangbiApi zhuangbiService;
     final NewsApi newsService;
+    final WeatherApi weatherService;
 
     public MyExerciseRetrofit() {
+
+//        if (BuildConfig.DEBUG) {
+            HttpLoggingInterceptor logging = new HttpLoggingInterceptor(new HttpLoggingInterceptor.Logger() {
+                @Override
+                public void log(String message) {
+                    Log.i("OkHttpClient","OkHttpMessage:"+message);
+                }
+            });
+            logging.setLevel(HttpLoggingInterceptor.Level.BODY);
+            okHttpClient = new OkHttpClient.Builder().addInterceptor(logging).build();
+//        }
         Retrofit gankretrofit = new Retrofit.Builder()
                 .client(okHttpClient)
                 .baseUrl("http://gank.io/api/")
@@ -47,6 +67,14 @@ public class MyExerciseRetrofit {
                 .addCallAdapterFactory(rxJavaCallAdapterFactory)
                 .build();
         newsService = newsretrofit.create(NewsApi.class);
+
+        Retrofit weatherRetrofit = new Retrofit.Builder()
+                .client(okHttpClient)
+                .baseUrl("https://free-api.heweather.com/v5/")
+                .addConverterFactory(gsonConverterFactory)
+                .addCallAdapterFactory(rxJavaCallAdapterFactory)
+                .build();
+        weatherService = weatherRetrofit.create(WeatherApi.class);
     }
 
     public GankApi getGankService() {
@@ -59,5 +87,9 @@ public class MyExerciseRetrofit {
 
     public NewsApi getNewsService() {
         return newsService;
+    }
+
+    public WeatherApi getWeatherService() {
+        return weatherService;
     }
 }

@@ -1,6 +1,7 @@
 package com.myexercuse.myexercise.mvp.ui.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.support.v4.widget.TextViewCompat;
@@ -13,6 +14,7 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import com.myexercuse.myexercise.R;
+import com.myexercuse.myexercise.mvp.ui.activity.AboutActivity;
 import com.myexercuse.myexercise.util.L;
 
 import java.util.ArrayList;
@@ -76,6 +78,14 @@ public class MenuItemAdapter extends BaseAdapter
     private final int mIconSize;
     private LayoutInflater mInflater;
     private Context mContext;
+
+    private OnItemClickListener mOnItemClickListener;
+    public interface OnItemClickListener {
+        void onItemClick(View view);
+    }
+    public void setOnItemClickListener(OnItemClickListener onItemClickListener) {
+        this.mOnItemClickListener = onItemClickListener;
+    }
 
     public MenuItemAdapter(Context context)
     {
@@ -151,6 +161,19 @@ public class MenuItemAdapter extends BaseAdapter
                     icon.setBounds(0, 0, mIconSize, mIconSize);
                     TextViewCompat.setCompoundDrawablesRelative(itemView, icon, null, null, null);
                 }
+
+                if(item.name.equals("关于")){
+                    convertView.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+//                            mOnItemClickListener.onItemClick(v);
+//                            Toast.makeText(mContext,"dianjile关于",Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(mContext, AboutActivity.class);
+                            mContext.startActivity(intent);
+                        }
+                    });
+                }
+
 
                 break;
             case LvMenuItem.TYPE_NO_ICON:

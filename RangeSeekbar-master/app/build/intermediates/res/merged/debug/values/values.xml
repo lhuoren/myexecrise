@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="markArray">
+        <item>0</item>
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>更高</item>
+    </string-array>
+    <declare-styleable name="RangeSeekbar"><attr format="dimension" name="seekbarHeight"/><attr format="dimension" name="textSize"/><attr format="dimension" name="spaceBetween"/><attr format="reference" name="leftCursorBackground"/><attr format="reference" name="rightCursorBackground"/><attr format="reference" name="markTextArray"/><attr format="color" name="textColorNormal"/><attr format="color" name="textColorSelected"/><attr format="color" name="seekbarColorNormal"/><attr format="color" name="seekbarColorSelected"/><attr format="integer" name="autoMoveDuration"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">MultiTouchSeekbar</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

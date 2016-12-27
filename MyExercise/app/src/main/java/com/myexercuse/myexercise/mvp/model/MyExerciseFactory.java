@@ -2,6 +2,7 @@ package com.myexercuse.myexercise.mvp.model;
 
 import com.myexercuse.myexercise.mvp.model.api.GankApi;
 import com.myexercuse.myexercise.mvp.model.api.NewsApi;
+import com.myexercuse.myexercise.mvp.model.api.WeatherApi;
 import com.myexercuse.myexercise.mvp.model.api.ZhuangbiApi;
 
 /**
@@ -13,6 +14,7 @@ public class MyExerciseFactory {
     static GankApi sGankIOSingleton = null;
     static ZhuangbiApi sZhuangbiIOSingleton = null;
     static NewsApi sNewsIOSingleton = null;
+    static WeatherApi sWeatherSingleton = null;
 
     public static GankApi getGankIOSingleton(){
         synchronized(monitor){
@@ -38,6 +40,15 @@ public class MyExerciseFactory {
                 sNewsIOSingleton = new MyExerciseRetrofit().getNewsService();
             }
             return sNewsIOSingleton;
+        }
+    }
+
+    public static WeatherApi getWeatherSingleton(){
+        synchronized(monitor){
+            if(sWeatherSingleton == null){
+                sWeatherSingleton = new MyExerciseRetrofit().getWeatherService();
+            }
+            return sWeatherSingleton;
         }
     }
 }

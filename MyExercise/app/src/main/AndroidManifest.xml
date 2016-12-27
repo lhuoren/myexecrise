@@ -2,16 +2,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.myexercuse.myexercise">
 
+    <!--用于访问网络，网络定位需要上网-->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!--用于写入缓存数据到扩展存储卡-->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!--用于获取运营商信息，用于支持提供运营商信息相关的接口-->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!--用于访问wifi网络信息，wifi信息会用于进行网络定位-->
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!--用于读取手机当前的状态-->
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 
-    /**友盟权限*/
+    <!--友盟权限-->
     <uses-permission android:name="android.permission.READ_LOGS" />
+    <!--用于访问GPS定位-->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--用于进行网络定位-->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.SET_DEBUG_APP" />
@@ -19,6 +26,18 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <!--高德地图权限-->
+    <!--用于进行网络定位-->
+    <!--用于访问GPS定位-->
+    <!--用于获取运营商信息，用于支持提供运营商信息相关的接口-->
+    <!--用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <!--用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <!--用于访问网络，网络定位需要上网-->
+    <!--用于读取手机当前的状态-->
+    <!--用于写入缓存数据到扩展存储卡-->
+    <!--用于申请调用A-GPS模块-->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"></uses-permission>
 
     <application
         android:name=".MyApplication"
@@ -95,20 +114,24 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
-        /**项目的key*/
+        <!--项目的key-->
         <meta-data
             android:name="UMENG_APPKEY"
             android:value="5797859b67e58eb71800153e" >
         </meta-data>
-        /**demo中的key*/
+        <!--demo中的key-->
         <!--<meta-data-->
         <!--android:name="UMENG_APPKEY"-->
         <!--android:value="561cae6ae0f55abd990035bf" >-->
         <!--</meta-data>-->
-        /**Glide*/
+        <!--Glide-->
         <meta-data
             android:name="com.myexercuse.myexercise.util.GlideModuleConfig"
             android:value="GlideModule" />
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="c2c8f5ac0376ec0a05d579a04100a60a"/>
     </application>
 
 </manifest>

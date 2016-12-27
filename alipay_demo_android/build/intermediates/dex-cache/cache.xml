@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\code\mygithub\myexecrise\alipay_demo_android\PayDemoActivity_20\libs\android-support-v13.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="5b3db0befb5f9a8c310ca661ea2f67da12871fa2">
+        <dex dex="E:\code\mygithub\myexecrise\alipay_demo_android\PayDemoActivity_20\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v13_d8fa841b6c51066fc3b1939422859773f2d67f35\classes.dex" />
+    </item>
+    <item
+        jar="E:\code\mygithub\myexecrise\alipay_demo_android\PayDemoActivity_20\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="47f51ca6dd088ba849ce58ff81fd1698cb33822f">
+        <dex dex="E:\code\mygithub\myexecrise\alipay_demo_android\PayDemoActivity_20\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_168f746404a1f0f89107a652ab6d8ad023c699a0\classes.dex" />
+    </item>
+    <item
+        jar="E:\code\mygithub\myexecrise\alipay_demo_android\PayDemoActivity_20\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="8f8b6a0f12b1537ce828a83db7067f4fd45c7a3b">
+        <dex dex="E:\code\mygithub\myexecrise\alipay_demo_android\PayDemoActivity_20\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a16520c7b50393e3ad106d1448679d722421c790\classes.dex" />
+    </item>
+    <item
+        jar="E:\code\mygithub\myexecrise\alipay_demo_android\PayDemoActivity_20\libs\alipaySdk-20161009.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="1275bd1ea78a827546f3014ee58371d65ab1280e">
+        <dex dex="E:\code\mygithub\myexecrise\alipay_demo_android\PayDemoActivity_20\build\intermediates\transforms\dex\debug\folders\1000\2\alipaySdk-20161009_0b04ca79a6f75e03ec373a0f1d4e92b2d865c050\classes.dex" />
+    </item>
+
+</items>

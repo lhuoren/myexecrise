@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
@@ -40,6 +41,7 @@ public class NewsFragmentContent extends LazyFragment implements FNContentView{
     private int mSize = 10;
     private int mPage = 0;
     private LinearLayoutManager layoutManager = null;
+    private boolean mIsRefreshing;//在刷新的时候给不让用户滑动不然会出错(recycleview的坑)
 
     public static Fragment newInstance(int type) {
         Bundle args = new Bundle();
@@ -82,6 +84,7 @@ public class NewsFragmentContent extends LazyFragment implements FNContentView{
         newsRecyclerView.setLoadingListener(new XRecyclerView.LoadingListener() {
             @Override
             public void onRefresh() {
+                mIsRefreshing = true;
                 Log.i("onRefresh","onRefresh");
 
                 new Handler().postDelayed(new Runnable(){
@@ -98,7 +101,7 @@ public class NewsFragmentContent extends LazyFragment implements FNContentView{
 
             @Override
             public void onLoadMore() {
-
+                mIsRefreshing = true;
                 new Handler().postDelayed(new Runnable(){
                     public void run() {
 
@@ -108,6 +111,7 @@ public class NewsFragmentContent extends LazyFragment implements FNContentView{
                         newsAdapter.notifyDataSetChanged();
                         Log.i("onLoadMore1","onLoadMore1");
                         newsRecyclerView.loadMoreComplete();
+                        mIsRefreshing = false;
                     }
                 }, 1000);
             }
@@ -117,10 +121,24 @@ public class NewsFragmentContent extends LazyFragment implements FNContentView{
         newsAdapter.setOnItemClickListener(new NewsAdapter.OnRecyclerViewItemClickListener(){
             @Override
             public void onItemClick(View view , NewsData newsData){
-                Toast.makeText(getActivity(), "newsData", Toast.LENGTH_LONG).show();
+//                Toast.makeText(getActivity(), "newsData", Toast.LENGTH_LONG).show();
                 startWebActivity(newsData, view);
             }
         });
+
+        /**拦截Reclyview手势*/
+        newsRecyclerView.setOnTouchListener(
+                new View.OnTouchListener() {
+                    @Override
+                    public boolean onTouch(View v, MotionEvent event) {
+                        if (mIsRefreshing) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+                    }
+                }
+        );
     }
 
     @Override
@@ -188,7 +206,7 @@ public class NewsFragmentContent extends LazyFragment implements FNContentView{
 //        }
 //        newsAdapter.notifyDataSetChanged();
         mPage += Commons.PAZE_SIZE;
-
+        mIsRefreshing = false;
     }
 
     @Override
@@ -207,6 +225,7 @@ public class NewsFragmentContent extends LazyFragment implements FNContentView{
     protected void initData() {
         fnContentPresenter = new FNContentPresenterImpl(NewsFragmentContent.this);
         initView();
+        mIsRefreshing = true;
         if(newsDataList == null) {
             newsDataList = new ArrayList<>();
         }
@@ -215,6 +234,7 @@ public class NewsFragmentContent extends LazyFragment implements FNContentView{
         setListener();
         newsRecyclerView.setAdapter(newsAdapter);
         newsRecyclerView.setRefreshing(true);
+        mIsRefreshing = false;
     }
 
 }

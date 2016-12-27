@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
@@ -48,6 +49,7 @@ public class GankFragmentContent extends LazyFragment implements FGContentView {
     private int refreshTime = 0;
     private int times = 0;
     private LinearLayoutManager layoutManager = null;
+    private boolean mIsRefreshing;//在刷新的时候给不让用户滑动不然会出错(recycleview的坑)
 
     public static Fragment newInstance(int type) {
         Bundle args = new Bundle();
@@ -83,6 +85,7 @@ public class GankFragmentContent extends LazyFragment implements FGContentView {
         mRecyclerView.setLoadingListener(new XRecyclerView.LoadingListener() {
             @Override
             public void onRefresh() {
+                mIsRefreshing = true;
                 Log.i("onRefresh","onRefresh");
 //                times = 0;
 
@@ -103,7 +106,7 @@ public class GankFragmentContent extends LazyFragment implements FGContentView {
 
             @Override
             public void onLoadMore() {
-
+                mIsRefreshing = true;
                 new Handler().postDelayed(new Runnable(){
                         public void run() {
                             if(mPage>1){
@@ -113,6 +116,7 @@ public class GankFragmentContent extends LazyFragment implements FGContentView {
                             }
                             Log.i("onLoadMore1","onLoadMore1");
                             mRecyclerView.loadMoreComplete();
+                            mIsRefreshing = false;
                         }
                     }, 1000);
                 mPage++;
@@ -124,7 +128,7 @@ public class GankFragmentContent extends LazyFragment implements FGContentView {
         mAdapter.setOnItemClickListener(new MyAdapter.OnRecyclerViewItemClickListener(){
             @Override
             public void onItemClick(View view , GankEntity gankEntity){
-                Toast.makeText(getActivity(), "gankEntity", Toast.LENGTH_LONG).show();
+//                Toast.makeText(getActivity(), "gankEntity", Toast.LENGTH_LONG).show();
                 startWebActivity(gankEntity, view);
             }
         });
@@ -135,6 +139,20 @@ public class GankFragmentContent extends LazyFragment implements FGContentView {
                 getGanks();
             }
         });
+
+        /**拦截Reclyview手势*/
+        mRecyclerView.setOnTouchListener(
+                new View.OnTouchListener() {
+                    @Override
+                    public boolean onTouch(View v, MotionEvent event) {
+                        if (mIsRefreshing) {
+                            return true;
+                        } else {
+                            return false;
+                        }
+                    }
+                }
+        );
     }
 
     @Override
@@ -192,7 +210,7 @@ public class GankFragmentContent extends LazyFragment implements FGContentView {
             mRecyclerView.setNoMore(true);
             mAdapter.notifyDataSetChanged();
         }
-
+        mIsRefreshing = false;
     }
 
     @Override
@@ -234,17 +252,19 @@ public class GankFragmentContent extends LazyFragment implements FGContentView {
 
     @Override
     protected void initData() {
+
         if(mRecyclerView == null){
             initView();
         }
-
+        mIsRefreshing = true;
         ganklist = new ArrayList<>();
         fgContentPresenter = new FGContentPresenterImpl(GankFragmentContent.this);
-        mAdapter = new MyAdapter(ganklist);
+        mAdapter = new MyAdapter(ganklist,getActivity());
         mRecyclerView.setAdapter(mAdapter);
         getGanks();
         setListener();
         mRecyclerView.setRefreshing(true);
+        mIsRefreshing = false;
 
     }
 

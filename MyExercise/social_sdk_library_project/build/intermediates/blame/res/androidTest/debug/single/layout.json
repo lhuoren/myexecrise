@@ -1,170 +1,86 @@
 [
     {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_full_alert_dialog.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_full_alert_dialog.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_shareboard_item.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_shareboard_item.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_base_alert_dialog.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_base_alert_dialog.xml"
     },
     {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_round.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_blue_round.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_white_large.xml"
     },
     {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_round.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_white_round.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_oauth_dialog.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_oauth_dialog.xml"
     },
     {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_failed_load_page.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_failed_load_page.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_base_alert_dialog_button.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_base_alert_dialog_button.xml"
     },
     {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_failed_load_page.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_failed_load_page.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_white_round.xml"
     },
     {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_login_fragment.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\com_facebook_login_fragment.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_blue_round.xml"
     },
     {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_round.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_blue_round.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_blue_small.xml"
     },
     {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_full_curtain.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_full_curtain.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_shareboard_item.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_shareboard_item.xml"
     },
     {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_small.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_white_small.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_full_alert_dialog_item.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_full_alert_dialog_item.xml"
     },
     {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_login_fragment.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\com_facebook_login_fragment.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_facebook_login_activity_layout.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_facebook_login_activity_layout.xml"
     },
     {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_post_share.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_post_share.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_failed_load_page.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_failed_load_page.xml"
     },
     {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_base_alert_dialog_button.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_base_alert_dialog_button.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_simple_spinner_item.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_simple_spinner_item.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_facebook_login_activity_layout.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_facebook_login_activity_layout.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_simple_spinner_item.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_simple_spinner_item.xml"
     },
     {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_facebook_login_activity_layout.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_facebook_login_activity_layout.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_full_alert_dialog.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_full_alert_dialog.xml"
     },
     {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_tooltip_bubble.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\com_facebook_tooltip_bubble.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\com_facebook_login_fragment.xml"
     },
     {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_full_alert_dialog_item.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_full_alert_dialog_item.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_full_curtain.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_full_curtain.xml"
     },
     {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_simple_spinner_item.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_simple_spinner_item.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_post_share.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_post_share.xml"
     },
     {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_large.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_white_large.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_white_small.xml"
     },
     {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_small.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_blue_small.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_small.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_blue_small.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_post_share.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_post_share.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_titile_bar.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_titile_bar.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_base_alert_dialog_button.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_base_alert_dialog_button.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_shareboard_item.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_shareboard_item.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_base_alert_dialog.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_base_alert_dialog.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_large.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_blue_large.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_large.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_blue_large.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_oauth_dialog.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_oauth_dialog.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_oauth_dialog.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_oauth_dialog.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_full_curtain.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_full_curtain.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_full_alert_dialog.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_full_alert_dialog.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_round.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_white_round.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_large.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_white_large.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_tooltip_bubble.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\com_facebook_tooltip_bubble.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_base_alert_dialog.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_base_alert_dialog.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_activity_layout.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\com_facebook_activity_layout.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_titile_bar.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_titile_bar.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_full_alert_dialog_item.xml",
-        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_full_alert_dialog_item.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_small.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\messenger_button_send_white_small.xml"
-    },
-    {
-        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_activity_layout.xml",
-        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\com_facebook_activity_layout.xml"
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\umeng_socialize_titile_bar.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\layout\\umeng_socialize_titile_bar.xml"
     }
 ]

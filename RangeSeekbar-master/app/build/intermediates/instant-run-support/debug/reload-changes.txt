@@ -1,0 +1,3 @@
+CHANGED,E:\code\mygithub\myexecrise\RangeSeekbar-master\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,E:\code\mygithub\myexecrise\RangeSeekbar-master\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\dolphin\seekbar\MainActivity$2$override.class
+CHANGED,E:\code\mygithub\myexecrise\RangeSeekbar-master\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\dolphin\seekbar\RangeSeekbar$override.class

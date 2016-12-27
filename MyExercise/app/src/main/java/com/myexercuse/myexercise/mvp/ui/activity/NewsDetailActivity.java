@@ -81,4 +81,10 @@ public class NewsDetailActivity extends AppCompatActivity implements NewsDetailV
         mProgressBar.setVisibility(View.GONE);
         Toast.makeText(NewsDetailActivity.this,"加载详情失败",Toast.LENGTH_LONG).show();
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
 }

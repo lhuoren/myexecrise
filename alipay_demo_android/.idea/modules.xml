@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PayDemoActivity_20/PayDemoActivity_20.iml" filepath="$PROJECT_DIR$/PayDemoActivity_20/PayDemoActivity_20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alipay_demo_android.iml" filepath="$PROJECT_DIR$/alipay_demo_android.iml" />
+    </modules>
+  </component>
+</project>

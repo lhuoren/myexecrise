@@ -31,4 +31,7 @@
     <color name="primary_text">#212121</color>
     <color name="secondary_text">#727272</color>
     <color name="icons">#FFFFFF</color>
+
+    <color name="titleColor">#757575</color>
+    <color name="titleColorSelected">#F54D33</color>
 </resources>

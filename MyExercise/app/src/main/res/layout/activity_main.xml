@@ -51,10 +51,10 @@
 
                 <ImageView
                     android:id="@+id/iv_gank"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
                     android:layout_centerHorizontal="true"
-                    android:src="@drawable/btn_know_nor"
+                    android:src="@drawable/tab_center_gray"
                     android:contentDescription="@null"/>
 
                 <TextView
@@ -76,10 +76,10 @@
 
                 <ImageView
                     android:id="@+id/iv_meizhi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
                     android:layout_centerHorizontal="true"
-                    android:src="@drawable/btn_wantknow_nor"
+                    android:src="@drawable/tab_counter_light"
                     android:contentDescription="@null" />
 
                 <TextView
@@ -101,10 +101,10 @@
 
                 <ImageView
                     android:id="@+id/iv_me"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
                     android:layout_centerHorizontal="true"
-                    android:src="@drawable/btn_my_nor"
+                    android:src="@drawable/tab_assistant_gray"
                     android:contentDescription="@null" />
 
 

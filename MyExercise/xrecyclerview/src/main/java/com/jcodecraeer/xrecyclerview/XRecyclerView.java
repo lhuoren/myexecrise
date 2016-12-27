@@ -501,7 +501,8 @@ public class XRecyclerView extends RecyclerView {
         if (refreshing && pullRefreshEnabled && mLoadingListener != null) {
             mRefreshHeader.setState(ArrowRefreshHeader.STATE_REFRESHING);
             mRefreshHeader.onMove(mRefreshHeader.getMeasuredHeight());
-            mLoadingListener.onRefresh();
+            /**注释掉第一次有加载不需要重复走了否则会因为清空list导致出错*/
+//            mLoadingListener.onRefresh();
         }
     }
 
