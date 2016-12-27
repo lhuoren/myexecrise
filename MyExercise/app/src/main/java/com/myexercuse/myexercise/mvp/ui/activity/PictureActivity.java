@@ -106,6 +106,7 @@ public class PictureActivity extends ToolbarActivity {
     public void onBackPressed() {
         super.onBackPressed();
         finish();
+
     }
 
 }

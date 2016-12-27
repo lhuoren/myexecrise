@@ -15,6 +15,7 @@
             android:layout_width="200px"
             android:layout_height="200px"
             android:src="@drawable/haer"/>
+
         <TextView
             android:id="@+id/tv_gank_title"
             android:layout_width="match_parent"

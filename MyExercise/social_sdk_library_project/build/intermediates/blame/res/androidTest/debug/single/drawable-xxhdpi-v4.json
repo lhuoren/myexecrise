@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png"
     },
@@ -10,6 +11,30 @@
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_icon.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_icon.png"
+=======
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_send_icon.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_send_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_white.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_white.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_icon.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png"
+>>>>>>> 1061cbdfa8697105aeef3ab6bcf48e107a11eef3
     },
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_send_icon.png",
@@ -20,6 +45,7 @@
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_white.png"
     },
     {
+<<<<<<< HEAD
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png"
     },
@@ -30,5 +56,101 @@
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png"
+=======
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_icon.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_send_icon.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_send_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_send_icon.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_send_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_large_white.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_large_white.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_large_white.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_icon.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_icon.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_blue.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_send_icon.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_send_icon.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_white.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_white.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_icon.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_icon.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_white.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_white.png"
+>>>>>>> 1061cbdfa8697105aeef3ab6bcf48e107a11eef3
     }
 ]

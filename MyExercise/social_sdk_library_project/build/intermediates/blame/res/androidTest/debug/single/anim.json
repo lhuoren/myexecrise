@@ -4,22 +4,110 @@
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_in.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
     },
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+=======
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_in.xml"
+>>>>>>> 1061cbdfa8697105aeef3ab6bcf48e107a11eef3
     },
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_out.xml",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_out.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
     },
     {
+=======
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+>>>>>>> 1061cbdfa8697105aeef3ab6bcf48e107a11eef3
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
     }

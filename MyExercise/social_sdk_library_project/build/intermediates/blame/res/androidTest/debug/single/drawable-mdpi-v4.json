@@ -1,23 +1,37 @@
 [
     {
+<<<<<<< HEAD
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png"
     },
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_xout.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_xout.png"
+=======
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_bottomnub.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_button_like_icon_selected.png"
+>>>>>>> 1061cbdfa8697105aeef3ab6bcf48e107a11eef3
     },
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_close.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_close.png"
     },
     {
+<<<<<<< HEAD
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png"
     },
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_large_white.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_large_white.png"
+=======
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_xout.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_xout.png"
+>>>>>>> 1061cbdfa8697105aeef3ab6bcf48e107a11eef3
     },
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png",
@@ -28,36 +42,232 @@
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
     },
     {
+<<<<<<< HEAD
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_send_icon.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_button_send_icon.png"
     },
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_xout.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_xout.png"
+=======
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_icon.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_button_icon.png"
+>>>>>>> 1061cbdfa8697105aeef3ab6bcf48e107a11eef3
     },
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_icon.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_button_icon.png"
     },
     {
+<<<<<<< HEAD
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
+=======
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_close.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_close.png"
+>>>>>>> 1061cbdfa8697105aeef3ab6bcf48e107a11eef3
     },
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png"
     },
     {
+<<<<<<< HEAD
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_small_blue.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_small_blue.png"
     },
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_large_blue.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_large_blue.png"
+=======
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png"
+>>>>>>> 1061cbdfa8697105aeef3ab6bcf48e107a11eef3
     },
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png",
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png"
+    },
+    {
+<<<<<<< HEAD
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png"
+=======
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_button_send_round_shadow.png"
+>>>>>>> 1061cbdfa8697105aeef3ab6bcf48e107a11eef3
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_small_white.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_small_white.png"
+    },
+    {
+<<<<<<< HEAD
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_button_like_icon_selected.png"
+=======
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_xout.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_xout.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_xout.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_xout.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_small_white.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_small_white.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_close.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_close.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_large_white.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_xout.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_xout.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_send_icon.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_button_send_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_small_white.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_small_white.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_small_white.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_small_white.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_send_icon.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_button_send_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_icon.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_button_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_xout.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_xout.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_xout.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_xout.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_xout.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_xout.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_large_blue.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_large_white.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_close.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_close.png"
     },
     {
         "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_button_send_round_shadow.png",
@@ -72,7 +282,80 @@
         "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_small_white.png"
     },
     {
-        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_like_icon_selected.png",
-        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_button_like_icon_selected.png"
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_bottomnub.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_large_white.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_bottomnub.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_large_blue.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_icon.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_button_icon.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_bottomnub.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_large_blue.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png",
+        "source": "D:\\androidstudio\\ProjectAndDemo\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png"
+    },
+    {
+        "merged": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png",
+        "source": "E:\\code\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\messenger_bubble_large_white.png",
+        "source": "D:\\androidstudio\\project\\mygithub\\myexecrise\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_send_icon.png",
+        "source": "D:\\androidstudio\\testexamples\\MyExercise\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_button_send_icon.png"
+>>>>>>> 1061cbdfa8697105aeef3ab6bcf48e107a11eef3
     }
 ]
